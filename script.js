@@ -23,6 +23,7 @@ container.append(box);
 //to create input to display the calculations
 let ele = document.createElement("input");
 ele.setAttribute("id", "result");
+ele.setAttribute('placeholder','0');
 box.append(ele);
 
 let br1 = document.createElement("br");
